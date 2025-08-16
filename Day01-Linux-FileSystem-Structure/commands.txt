@@ -1,0 +1,23 @@
+# Show root directory
+ls /
+
+# Show hidden files also
+ls -la /
+
+# Check file system disk usage
+df -h
+
+# Check mounted partitions
+mount | column -t
+
+# Show human readable disk space usage
+du -sh /home/*
+
+# Print current working directory
+pwd
+
+# Show file type
+file /etc/passwd
+
+# Tree structure (install first if needed: sudo apt install tree)
+tree /

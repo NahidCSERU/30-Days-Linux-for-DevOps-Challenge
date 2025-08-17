@@ -1,5 +1,7 @@
-🐧 30 Days Linux for DevOps Challenge
-# 📅 Week 1: Linux Basics
+# 🐧 30 Days Linux for DevOps Challenge
+![Linux Challenge Architecture](./images/30-day-Linux-devops-portfolio.jpg)
+
+## 📅 Week 1: Linux Basics
 
 Day 1: Linux File System Structure
 
@@ -15,7 +17,7 @@ Day 6: Directory Management (mkdir, rmdir, tree)
 
 Day 7: File Searching (find, locate)
 
-# 📅 Week 2: Process & System Management
+## 📅 Week 2: Process & System Management
 
 Day 8: Processes (ps, top, htop)
 
@@ -31,7 +33,7 @@ Day 13: Disk Usage (df -h, du -sh)
 
 Day 14: Memory & Swap (free -m, vmstat)
 
-# 📅 Week 3: Networking & Security
+## 📅 Week 3: Networking & Security
 
 Day 15: IP & Hostname (ip addr, hostnamectl)
 
@@ -47,7 +49,7 @@ Day 20: Cron Jobs (crontab -e)
 
 Day 21: Logs & Monitoring (journalctl, /var/log/)
 
-# 📅 Week 4: Scripting & DevOps Tools
+## 📅 Week 4: Scripting & DevOps Tools
 
 Day 22: Bash Scripting Basics (variables, echo)
 

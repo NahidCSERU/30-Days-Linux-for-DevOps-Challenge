@@ -4,13 +4,13 @@ ls /
 # Show hidden files also
 ls -la /
 
-# Check file system disk usage
-df -h
+# Check file system disk usage, df -h = কোথায় সমস্যা হচ্ছে?
+df -h   
 
 # Check mounted partitions
 mount | column -t
 
-# Show human readable disk space usage
+# du -sh = “specific folder/file এর deep dive”, du -sh = কার কারণে সমস্যা হচ্ছে?
 du -sh /home/*
 
 # Print current working directory

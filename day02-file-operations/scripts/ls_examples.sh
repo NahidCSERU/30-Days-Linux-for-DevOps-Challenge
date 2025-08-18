@@ -1,5 +1,7 @@
 #!/bin/bash
-# Examples of ls command
+# Day-02: Examples of ls command
+# Author: <Nahid Hasan>
+# Date: $(16/08/2025)
 
 echo "1. Current directory list:"
 ls

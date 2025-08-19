@@ -22,9 +22,9 @@ This repository contains examples of basic Linux file operation commands.
 3. Run examples:   
     ```bash
     ./ls_examples.sh
-./cp_examples.sh
-./mv_examples.sh
-./rm_examples.sh 
+    ./cp_examples.sh
+    ./mv_examples.sh
+    ./rm_examples.sh 
     ```
 ## 📝 Notes  
 * Use `ls -l` to see file permissions, owners, and sizes.

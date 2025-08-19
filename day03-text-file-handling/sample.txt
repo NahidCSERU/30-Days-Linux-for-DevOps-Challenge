@@ -1,0 +1,10 @@
+Line 1: This is a demo text file.
+Line 2: We are practicing Linux text commands.
+Line 3: cat shows content.
+Line 4: less allows scrolling.
+Line 5: head shows beginning.
+Line 6: tail shows ending.
+Line 7: This is for DevOps learning.
+Line 8: Keep practicing daily.
+Line 9: Linux is powerful.
+Line 10: This is the last line.

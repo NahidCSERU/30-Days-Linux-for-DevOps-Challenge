@@ -1,0 +1,4 @@
+alice:dev
+bob:dev
+charlie:admin
+david:qa

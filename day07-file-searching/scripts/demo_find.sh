@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Day 07: File Searching (find, locate)
+# Author: <Nahid Hasan>
+# Date: $(23/08/2025)
 set -euo pipefail
 PG="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)/playground"
 

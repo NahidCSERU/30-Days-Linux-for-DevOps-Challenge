@@ -1,0 +1,22 @@
+[Unit]
+Description=Day11 Demo Service (long-running)
+After=network.target
+
+
+[Service]
+Type=simple
+# Load environment variables
+EnvironmentFile=/etc/default/hello
+# The app script (installed to /usr/local/bin)
+ExecStart=/usr/local/bin/hello.sh
+# Auto-restart on failure
+Restart=on-failure
+RestartSec=2
+# Hardening suggestions
+NoNewPrivileges=true
+ProtectSystem=full
+ProtectHome=true
+
+
+[Install]
+WantedBy=multi-user.target

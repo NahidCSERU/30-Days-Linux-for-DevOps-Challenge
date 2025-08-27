@@ -1,0 +1,7 @@
+[Unit]
+Description=Day11 Demo Oneshot Job (runs via timer)
+
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/bash -lc 'echo "[hello-job] $(date -Is) :: timer fired"'

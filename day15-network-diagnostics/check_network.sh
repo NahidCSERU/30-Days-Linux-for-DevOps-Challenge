@@ -2,6 +2,7 @@
 # Network Diagnostics Script
 # Author: Nahid Hasan
 # Day 15: Logs IP details and connectivity checks for monitoring.
+# Date : (31.08.2025)
 
 
 LOG_DIR="./logs"

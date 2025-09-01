@@ -1,0 +1,3 @@
+google.com
+https://example.com
+https://jsonplaceholder.typicode.com/posts/1

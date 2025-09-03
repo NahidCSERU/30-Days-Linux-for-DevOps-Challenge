@@ -1,4 +1,4 @@
-# 🔥 Day 18: Firewall Project (UFW + iptables)
+# Day 18: Firewall Project (UFW + iptables)
 
 This project demonstrates how to configure **firewall rules** using both `ufw` and `iptables`.
 

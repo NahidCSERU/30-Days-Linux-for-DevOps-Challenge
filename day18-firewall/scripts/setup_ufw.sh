@@ -1,7 +1,7 @@
 #!/bin/bash
 # Day-18: Firewall setup with UFW (Uncomplicated Firewall)
 # Author: <Nahid Hasan>
-# Date: (/09/2025)
+# Date: (03/09/2025)
 
 echo "🔹 Updating package lists..."
 sudo apt update -y

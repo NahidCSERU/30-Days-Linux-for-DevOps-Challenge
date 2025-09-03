@@ -1,6 +1,7 @@
 #!/bin/bash
-# Firewall setup with iptables
-
+# Day-18: Firewall setup with iptables
+# Author: <Nahid Hasan>
+# Date: (03/09/2025)
 echo "🔹 Flushing old rules..."
 sudo iptables -F
 sudo iptables -X

@@ -36,3 +36,9 @@ journalctl -p 3 -xb | tail -n 10 | tee -a $REPORT_FILE
 # 6. Disk space check
 echo -e "\n🔹 Disk usage (df -h):" | tee -a $REPORT_FILE
 df -h | tee -a $REPORT_FILE
+
+# 7. Top 5 CPU consuming processes
+echo -e "\n🔹 Top CPU consuming processes:" | tee -a $REPORT_FILE
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 6 | tee -a $REPORT_FILE
+
+echo -e "\n✅ Report saved at: $REPORT_FILE"

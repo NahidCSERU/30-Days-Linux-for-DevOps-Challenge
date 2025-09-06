@@ -28,3 +28,7 @@ grep "Accepted password" /var/log/auth.log | tail -n 10 | tee -a $REPORT_FILE
 echo -e "\n🔹 Package management logs (/var/log/dpkg.log):" | tee -a $REPORT_FILE
 grep " install " /var/log/dpkg.log | tail -n 5 | tee -a $REPORT_FILE
 grep " remove " /var/log/dpkg.log | tail -n 5 | tee -a $REPORT_FILE
+
+# 5. Kernel errors/warnings
+echo -e "\n🔹 Kernel errors (journalctl -p 3):" | tee -a $REPORT_FILE
+journalctl -p 3 -xb | tail -n 10 | tee -a $REPORT_FILE

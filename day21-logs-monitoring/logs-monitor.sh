@@ -23,3 +23,8 @@ grep "Failed password" /var/log/auth.log | tail -n 10 | tee -a $REPORT_FILE
 # 3. Successful logins
 echo -e "\n🔹 Successful logins (/var/log/auth.log):" | tee -a $REPORT_FILE
 grep "Accepted password" /var/log/auth.log | tail -n 10 | tee -a $REPORT_FILE
+
+# 4. Recent package installations/removals
+echo -e "\n🔹 Package management logs (/var/log/dpkg.log):" | tee -a $REPORT_FILE
+grep " install " /var/log/dpkg.log | tail -n 5 | tee -a $REPORT_FILE
+grep " remove " /var/log/dpkg.log | tail -n 5 | tee -a $REPORT_FILE

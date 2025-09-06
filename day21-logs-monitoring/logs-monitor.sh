@@ -32,3 +32,7 @@ grep " remove " /var/log/dpkg.log | tail -n 5 | tee -a $REPORT_FILE
 # 5. Kernel errors/warnings
 echo -e "\n🔹 Kernel errors (journalctl -p 3):" | tee -a $REPORT_FILE
 journalctl -p 3 -xb | tail -n 10 | tee -a $REPORT_FILE
+
+# 6. Disk space check
+echo -e "\n🔹 Disk usage (df -h):" | tee -a $REPORT_FILE
+df -h | tee -a $REPORT_FILE

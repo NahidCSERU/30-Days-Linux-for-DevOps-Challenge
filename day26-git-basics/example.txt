@@ -1,0 +1,2 @@
+This is an example file to demonstrate Git add, commit, and push.
+You can modify this file and track the changes with Git.

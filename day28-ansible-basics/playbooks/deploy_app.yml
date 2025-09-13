@@ -1,0 +1,17 @@
+
+- name: Deploy Sample Web Application
+  hosts: webservers
+  become: true
+  tasks:
+    - name: Copy HTML file
+      copy:
+        src: ../roles/common/files/index.html
+        dest: /var/www/html/index.html
+        owner: www-data
+        group: www-data
+        mode: '0644'
+
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted

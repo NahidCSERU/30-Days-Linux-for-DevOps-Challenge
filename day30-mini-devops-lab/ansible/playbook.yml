@@ -1,0 +1,20 @@
+- name: Configure DevOps Lab
+  hosts: devops
+  become: yes
+  tasks:
+    - name: Update APT
+      apt:
+        update_cache: yes
+
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Run Docker container with Nginx
+      docker_container:
+        name: devops-nginx
+        image: nginx:latest
+        state: started
+        ports:
+          - "80:80"
